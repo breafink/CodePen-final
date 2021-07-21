@@ -1,0 +1,202 @@
+body{
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    height: 100%;
+}
+
+.nav-wrapper{
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    flex: 50%;
+}
+
+.right-nav{
+    padding-right: 30px;
+    flex: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nav-grid{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    width:50%;
+}
+
+.explore{
+    color: yellow;
+    font-size: 1.5em;
+}
+
+#logo{
+    display: block;
+    max-width: 210px;
+    max-height: 47px;
+    width: auto;
+    height: auto;
+}
+
+.links-wrapper{
+    flex: 60%;
+    width:80%;
+    list-style-position: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-wrapper div{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.links-wrapper div:last-child{
+    color: gray;
+}
+
+.links-wrapper > .spark{
+    color: gray;
+    font-weight: 400;
+    margin-left: 8%;
+}
+
+.mag-glass{
+    font-size: 2.5em;
+    color: gray;
+}
+
+.btn > .green-arrow{
+    color: green;
+}
+
+
+/* end of nav wrapper */
+
+
+.main{
+    width: 100%;
+    background-image: radial-gradient(top left, rgb(70, 70, 70) 1%, black 100%);
+    background-image: -webkit-radial-gradient(top left, rgb(70,70,70) 1%, black 100%);
+    height: 900px;
+}
+
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+}
+
+.left-side > .buttons > .btn{
+    font-size: .85em;
+}
+
+.left-side > .buttons > .sign-up{
+    font-size: .85em;
+    background-color: springgreen;
+}
+
+.left-side > .buttons > .learn-more{
+    font-size: .85em;
+    color: white;
+    background-color: black;
+}
+
+.btn{
+    background-color: rgb(54, 56, 63);
+    font-weight: 700;
+    font-size: 1.25em;
+    padding: 1.2rem 1.75rem;
+    border-radius: 2px;
+}
+
+
+
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right-side h5{
+    font-size: 1.25em;
+    display: flex;
+    width: 70%;
+    float: right;
+}
+
+h5{
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.projects-text{
+    color: rgb(111, 216, 248);
+}
+
+.right-side > .right-wrapper > img{
+    width: 70%;
+    display: flex;
+    float: right;
+    clear: right;
+}
+
+.right-wrapper{
+    height: 100%;
+}
+
+.footer-wrapper{
+    background-color: rgb(25,26,29);
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-item{
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 1.5em 0;
+    background-color: rgb(54, 56, 63);
+    font-weight: 600;
+}
+
+.bold-text{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.left-side{
+    padding: 50px 0px 0px 35px;
+    font-size: 3em;
+    color: rgb(165, 164, 164);
+}
+
+.highlighted-text{
+    font-weight: 700;
+    color: white;
+}
